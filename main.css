@@ -1,0 +1,104 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px auto 0px auto;
+  box-sizing: border-box;
+  z-index: 2;
+}
+img {
+  width: 48px;
+  height: 48px;
+}
+body {
+  background-color: white;
+  
+}
+hr {
+  width: 75%;
+  justify-self: center;
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 2px;
+  font-display: center;
+  width: 30%;
+}
+#header {
+  display: flex;
+  width: 70%;
+}
+#flexbox {
+  display: flex;
+}
+#products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box {
+  display: flex;
+  margin-top: 10px;
+  width: 1280px;
+  height: 60px;
+  top: 0px;
+  margin-bottom: 15px;
+  justify-content: left;
+  background-color: white;
+  border: 3px ridge rgb(245, 151, 43);
+  border-radius: 5px;
+  font-size: 25px;
+  }
+.left {
+  padding: 3px;
+  width: 200px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: left;
+
+}
+.right {
+  padding: 3px;
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: right;
+}
+.center{
+  padding: 3px;
+  width: 80px;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+}
+#butto {
+  z-index: 1;
+  display: flex;
+  width: 200px;
+  height: 60px;
+  padding: 2px;
+  margin: 10px;
+  border: 3px ridge rgb(245, 151, 43);
+  border-radius: 5px;
+} 
+#image {
+  box-sizing: border-box;
+  width: 48px;
+  height: 48px;
+}
+#bText {
+  box-sizing: border-box;
+  height: 48px;
+  width: 125px;
+  padding-top: 3px;
+  margin-bottom: auto;
+  font-weight: bolder;
+}
+.darkMode {
+  background-color: rgb(22, 22, 66);
+  color: white;
+}
+
+#butto:hover {
+  cursor: pointer;
+}
